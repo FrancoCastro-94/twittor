@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/ptilotta/twittor/models"
+	"github.com/FrancoCastro-94/twittor/models"
 )
 
 /*BorroRelacion borra la relacion en la BD */

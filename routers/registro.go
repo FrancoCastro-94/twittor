@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/ptilotta/twittor/bd"
-	"github.com/ptilotta/twittor/models"
+	"github.com/FrancoCastro-94/twittor/bd"
+	"github.com/FrancoCastro-94/twittor/models"
 )
 
 /*Registro es la funcion para crear en la BD el registro de usuario */

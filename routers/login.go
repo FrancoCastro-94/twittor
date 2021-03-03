@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/ptilotta/twittor/bd"
-	"github.com/ptilotta/twittor/jwt"
-	"github.com/ptilotta/twittor/models"
+	"github.com/FrancoCastro-94/twittor/bd"
+	"github.com/FrancoCastro-94/twittor/jwt"
+	"github.com/FrancoCastro-94/twittor/models"
 )
 
 /*Login realiza el login */

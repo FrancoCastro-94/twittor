@@ -6,7 +6,7 @@ import (
 
 	"go.mongodb.org/mongo-driver/bson/primitive"
 
-	"github.com/ptilotta/twittor/models"
+	"github.com/FrancoCastro-94/twittor/models"
 	"go.mongodb.org/mongo-driver/bson"
 )
 

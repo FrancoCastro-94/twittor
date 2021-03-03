@@ -3,8 +3,8 @@ package routers
 import (
 	"net/http"
 
-	"github.com/ptilotta/twittor/bd"
-	"github.com/ptilotta/twittor/models"
+	"github.com/FrancoCastro-94/twittor/bd"
+	"github.com/FrancoCastro-94/twittor/models"
 )
 
 /*BajaRelacion realiza el borrado de la relacion entre usuarios */

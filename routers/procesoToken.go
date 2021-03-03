@@ -4,9 +4,9 @@ import (
 	"errors"
 	"strings"
 
+	"github.com/FrancoCastro-94/twittor/bd"
+	"github.com/FrancoCastro-94/twittor/models"
 	jwt "github.com/dgrijalva/jwt-go"
-	"github.com/ptilotta/twittor/bd"
-	"github.com/ptilotta/twittor/models"
 )
 
 /*Email valor de Email usado en todos los EndPoints */

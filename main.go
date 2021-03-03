@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com/ptilotta/twittor/bd"
-	"github.com/ptilotta/twittor/handlers"
+	"github.com/FrancoCastro-94/twittor/bd"
+	"github.com/FrancoCastro-94/twittor/handlers"
 )
 
 func main() {

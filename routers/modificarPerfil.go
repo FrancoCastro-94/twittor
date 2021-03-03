@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/ptilotta/twittor/bd"
-	"github.com/ptilotta/twittor/models"
+	"github.com/FrancoCastro-94/twittor/bd"
+	"github.com/FrancoCastro-94/twittor/models"
 )
 
 /*ModificarPerfil modifica el perfil de usuario */
@@ -15,7 +15,7 @@ func ModificarPerfil(w http.ResponseWriter, r *http.Request) {
 
 	err := json.NewDecoder(r.Body).Decode(&t)
 	if err != nil {
-		http.Error(w, "Datos Incorrectos " + err.Error(), 400)
+		http.Error(w, "Datos Incorrectos "+err.Error(), 400)
 		return
 	}
 
@@ -23,7 +23,7 @@ func ModificarPerfil(w http.ResponseWriter, r *http.Request) {
 
 	status, err = bd.ModificoRegistro(t, IDUsuario)
 	if err != nil {
-		http.Error(w, "Ocurrión un error al intentar modificar el registro. Reintente nuevamente " + err.Error(), 400)
+		http.Error(w, "Ocurrión un error al intentar modificar el registro. Reintente nuevamente "+err.Error(), 400)
 		return
 	}
 

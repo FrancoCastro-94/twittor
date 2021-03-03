@@ -1,4 +1,4 @@
-module github.com/ptilotta/twittor
+module github.com/FrancoCastro-94/twittor
 
 go 1.12
 

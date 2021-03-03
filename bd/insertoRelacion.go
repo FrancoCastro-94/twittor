@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/ptilotta/twittor/models"
+	"github.com/FrancoCastro-94/twittor/models"
 )
 
 /*InsertoRelacion graba la relación en la BD */

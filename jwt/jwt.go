@@ -3,8 +3,8 @@ package jwt
 import (
 	"time"
 
+	"github.com/FrancoCastro-94/twittor/models"
 	jwt "github.com/dgrijalva/jwt-go"
-	"github.com/ptilotta/twittor/models"
 )
 
 /*GeneroJWT genera el encriptado con JWT */

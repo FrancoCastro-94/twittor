@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"os"
 
+	"github.com/FrancoCastro-94/twittor/middlew"
+	"github.com/FrancoCastro-94/twittor/routers"
 	"github.com/gorilla/mux"
-	"github.com/ptilotta/twittor/middlew"
-	"github.com/ptilotta/twittor/routers"
 	"github.com/rs/cors"
 )
 
